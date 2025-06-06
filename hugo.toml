@@ -1,0 +1,43 @@
+baseURL = "http://localhost:1313/"
+languageCode = "ang"
+title = "DRX blog"
+theme = "PaperMod"
+pagination.pagerSize = 10
+
+[params]
+  author = "Ton Nom"
+  defaultTheme = "auto"        # light | dark | auto
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowToc = true               # Show the table of contents
+  ShowBreadCrumbs = true
+  comments = false
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Accueil"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Articles"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    noClasses = false
+
+[params.social]
+  github = "https://github.com/ArcadeCode"
