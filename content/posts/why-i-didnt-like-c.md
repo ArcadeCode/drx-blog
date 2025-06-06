@@ -1,6 +1,6 @@
 +++
 date = '2025-06-06T21:00:23+02:00'
-draft = true
+draft = false
 title = 'Why I Didn’t Like C - But Still See Its Value'
 +++
 
