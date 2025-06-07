@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://arcadecode.github.io/drx-blog/"
 languageCode = "ang"
 title = "DRX blog"
 theme = "PaperMod"
