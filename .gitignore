@@ -1,1 +1,4 @@
 .vscode/
+
+# Ignore Hugo compiled files because they are generated using github action.
+/public/
